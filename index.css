@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    
+border: 1px solid;
 }
 
 a {
@@ -122,4 +122,57 @@ li {
 .main button:hover {
     background-color: white;
     color: black;
+}
+
+.about{
+    width: 1200px;
+height: 800px;
+margin: 0 auto;
+
+margin-top: 100px;
+}
+.about h2{
+font-size: 40px;
+color: #ff6a6a;
+}
+.about h1{
+font-size: 50px;
+
+}
+
+.about .contents{
+width: 100%;
+height: 500px;
+display: flex;
+}
+.about .left{
+    width: 400px;
+    height: 500px;
+}
+.about .left img{
+width: 400px;
+height: 500px;
+
+}
+.about .left{
+width: 800px;
+height: 500px;
+}
+.about .right h1{
+    font-size: 30px;
+}
+
+.about .right span{
+    color: #ff6a6a;
+}
+.about .right li{
+    font-size: 22px;
+}
+.fa-youtube{
+    font-size: 30px;
+    color: red;
+}
+.fa-instagram{
+    font-size: 30px;
+    color: rgb(117, 26, 97);
 }
