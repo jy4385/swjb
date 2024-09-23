@@ -4,6 +4,9 @@
     box-sizing: border-box;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 a {
     text-decoration: none;
@@ -122,60 +125,145 @@ li {
     background-color: white;
     color: black;
 }
+.mouse{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
 
-.about{
+.about {
     width: 1200px;
-height: 800px;
-margin: 0 auto;
+    height: 800px;
+    margin: 0 auto;
 
-margin-top: 100px;
-}
-.about h2{
-font-size: 40px;
-color: #ff6a6a;
-}
-.about h1{
-font-size: 50px;
-
+    margin-top: 100px;
 }
 
-.about .contents{
-width: 100%;
-height: 500px;
-display: flex;
+.about h2 {
+    font-size: 40px;
+    color: #ff6a6a;
 }
-.about .left{
+
+.about h1 {
+    font-size: 50px;
+
+}
+
+.about .contents {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.about .left {
     width: 400px;
     height: 500px;
 }
-.about .left img{
-width: 400px;
-height: 600px;
+
+.about .left img {
+    width: 800px;
+    height: 500px;
+    padding-right: 50px;
+}
+
+.about .left {
+    width: 800px;
+    height: 500px;
 
 }
-.about .left{
-width: 800px;
-height: 500px;
-padding-left: 50px;
-}
-.about .right h1{
+
+.about .right h1 {
     font-size: 30px;
 }
 
-.about .right span{
+.about .right span {
     color: #ff6a6a;
 }
-.about .right li{
-    font-size: 22px;
+
+.about .right li {
+    font-size: 100%;
     margin-bottom: 20px;
 }
-.fa-youtube{
+
+.fa-youtube {
     font-size: 50px;
     color: red;
     margin-right: 7px;
 }
-.fa-instagram{
+
+.fa-instagram {
     font-size: 50px;
     color: rgb(117, 26, 97);
     margin-right: 7px;
+}
+
+.skills {
+    background-color: #eee;
+    width: 100%;
+    height: 700px;
+
+    margin-top: 100px;
+    padding-top: 100px;
+
+}
+
+.skills h2 {
+    font-size: 40px;
+    color: #ff6a6a;
+}
+
+.skills h1 {
+    font-size: 50px;
+}
+
+.skills-inner {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.skills .contents {
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.skills .contents li {
+    width: 350px;
+    height: 350px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+
+    padding: 20px;
+    transition: 0.3s;
+}
+.skills h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.skills i{
+    color: #ff6a6a;
+    font-size: 40px;
+}
+.skills .contents li:hover {
+    background-color: #ff6a6a;
+    color: white;
+    border-radius: 15px;
+}
+.skills .contents li:hover i{
+    color: white;
+}
+.bg{
+    width: 100%;
+    height: 700px;
+    background: url(bg2.jpg) no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
 }
