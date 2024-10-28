@@ -205,20 +205,27 @@ li {
 .about .right li {
     font-size: 100%;
     margin-bottom: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
-.fa-youtube {
-    font-size: 50px;
-    color: red;
-    margin-right: 7px;
-}
 
 .fa-instagram {
     font-size: 50px;
     color: rgb(117, 26, 97);
     margin-right: 7px;
 }
-
+.fa-phone {
+    font-size: 40px;
+    color: gray;
+    margin-right: 7px;
+}
+.fa-envelope {
+    font-size: 40px;
+    margin-right: 7px;
+}
 .skills {
     background-color: #eee;
     width: 100%;
@@ -252,6 +259,10 @@ li {
     align-items: center;
 
     margin-top: 50px;
+}
+.skills .contents img{
+    width: 150px;
+    height: 150px;
 }
 
 .skills .contents li {
